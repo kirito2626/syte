@@ -1,0 +1,45 @@
+@font-face{
+	font-family: "ChelseaMarket";
+	src: url("../fonts/ChelseaMarket/ChelseaMarket.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+ 
+@font-face{
+	font-family: "telegrafico";
+	src: url("../fonts/telegrafico/telegrafico.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "Geneva";
+	src: url("../fonts/Geneva/Geneva.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "MyriadPro";
+	src: url("../fonts/MyriadPro/MyriadPro.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face{
+	font-family: "TerminalDosisBook";
+	src: url("../fonts/Terminal/Terminal.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "TerminalL";
+	src: url("../fonts/Terminal/TerminalL.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+@font-face{
+	font-family: "TerminalSemi";
+	src: url("../fonts/Terminal/TerminalSemi.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}

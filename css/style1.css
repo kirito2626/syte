@@ -1,0 +1,838 @@
+html{
+
+}
+body {
+	background-image: url(../img/bg.png);
+
+}
+*{
+	box-sizing: border-box;
+}
+ul,
+li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+}
+
+a{
+	text-decoration: none;
+	display: block;
+}
+.orange{
+	background-color: #fb6035;
+	width: 100%;
+	height: 80px;
+	background-image: -webkit-linear-gradient(left, rgb(244,70,32) 0%, rgb(248,84,43) 44%, rgb(252,98,54) 70%, rgb(251,94,49) 81%, rgb(250,89,43) 97%);
+	background-image: -o-linear-gradient(left, rgb(244,70,32) 0%, rgb(248,84,43) 44%, rgb(252,98,54) 70%, rgb(251,94,49) 81%, rgb(250,89,43) 97%);
+	background-image: linear-gradient(to right, rgb(244,70,32) 0%, rgb(248,84,43) 44%, rgb(252,98,54) 70%, rgb(251,94,49) 81%, rgb(250,89,43) 97%);
+}
+.container{
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.top{
+	position: absolute;
+	top: 15px;
+}
+.shop a{
+	position: relative;
+	float: left;
+	color: white;
+	margin-left: -15px;
+	font-family: "telegrafico","Geneva";
+	font-size: 14px;
+	top: 30px;
+	left: 800px;
+	width: 120px;
+}
+.Bonfire {
+	left: 38px;
+	font-size: 30px;
+	top: -15px;
+	color: white;	
+	bottom: 30px;
+	position: absolute;
+	margin-top: 20px;
+	font-family: "ChelseaMarket";
+}
+.light {
+	left: 160px;
+	top: 15px;
+	font-size: 14px;
+	font-family: "telegrafico";
+	position: absolute;
+	width: 200px;
+	color: white;
+	cursor: pointer;
+}
+.basket {
+	position: relative;
+	top: 15px;
+	left: 900px;
+	background-image: url(../img/basket.png);
+	width: 44px;
+	height: 45px;
+}
+.basket:focus{
+	position: relative;
+	background-image: url(../img/basketon.png);
+	width: 42px;
+	height: 43px;
+
+}
+.zero{
+	color: white;
+	position: absolute;
+	font-family: "MyriadPro";
+	font-size: 11px;
+	top: -7px;
+	left: 29.5px;
+}
+.glow{
+	position: absolute;
+	top: 80px;
+	width: 100%;
+	height: 66px;
+	background-color: #fbf2d3;
+	box-shadow: 2.5px 4.33px 0px 0px rgb( 241, 233, 207 );
+	z-index: 3;
+}
+.tex_glow{
+	position: absolute;
+	z-index: 3;
+	width: 100%;
+	bottom: 0px;
+	z-index: -1;
+}
+.home {
+	position: absolute;
+	top: 25px;
+	z-index: 10;
+	left: 125px;
+}
+.nav{
+	margin: 0 auto;
+	position: absolute;
+	left: 150px;
+}
+.unselectable{
+  user-select: none;
+  position: absolute;
+  color: white;
+  cursor: pointer;
+  z-index: 5;
+  left: 200px;
+  top: 15px;
+               
+}
+.ul {
+	height: 50px;
+	font-size: 16px;
+}
+.ul .li {
+	float: left;
+}
+.ul .li .a {
+	color: #8e8364;
+	display: block;
+	height: 70px;
+	padding: 0 42px;
+	text-decoration: none;
+	line-height: 65px;
+	font-family: "TerminalDosisBook";
+}
+.ul .li .a:hover {
+	background-image: -webkit-linear-gradient(left, rgb(251,242,211) 0%, rgb(246,235,198) 68%, rgb(240,228,184) 99%);
+	background-image: -o-linear-gradient(left, rgb(251,242,211) 0%, rgb(246,235,198) 68%, rgb(240,228,184) 99%);
+	background-image: linear-gradient(to right, rgb(251,242,211) 0%, rgb(246,235,198) 68%, rgb(240,228,184) 99%);
+}
+.flow{
+	background-image: -webkit-linear-gradient(left, rgb(249,246,242) 0%, rgb(249,246,242) 37%, rgb(248,245,241) 100%);
+	background-image: -o-linear-gradient(left, rgb(249,246,242) 0%, rgb(249,246,242) 37%, rgb(248,245,241) 100%);
+	background-image: linear-gradient(to right, rgb(249,246,242) 0%, rgb(249,246,242) 37%, rgb(248,245,241) 100%);
+	position: absolute;
+	width: 100%;
+	height: 60px;
+	top: 70px;
+	box-shadow: 0px 5px 0px 0px rgb( 242, 242, 242 );
+}
+.welcome {
+	position: absolute;
+	top: 23px;
+
+	color: #a7a49c;
+	font-size: 14px;
+	font-family: "TerminalDosisBook"
+}
+.vk{
+	position: absolute;
+	top: 0px;
+	left: 815px;
+	height: 25px;
+}
+.facebook{
+	position: absolute;
+	top: 0px;
+	left: 845px;
+	height: 25px;
+}
+.twitter {
+	position: absolute;
+	top: 0px;
+	left: 875px;
+	height: 25px;
+}
+.skype {
+	position: absolute;
+	top: 0px;
+	left: 905px;
+	height: 25px;
+}
+
+/*slider*/
+.wrapper {
+	height: 355px;
+	width: 940px;
+	margin: 100px auto 0;
+	position: relative;
+	top: 55px;
+	left: -10px;
+	z-index: 1;
+}
+
+.slider {
+	height: inherit;
+	overflow: hidden;
+	position: relative;
+	width: inherit;
+}
+.wrapper > input {
+	display: none;
+}
+.slides {
+	height: inherit;
+	position: absolute;
+	width: inherit;
+	opacity: 0;
+	transition: 1s;
+}
+.wrapper .controls {
+	left: 13%;
+	margin-left: -98px;
+	position: absolute;
+	z-index:
+}
+
+.wrapper label {
+	cursor: pointer;
+	display: inline-block;
+	height: 9px;
+	margin: 28px 3px 0 2px;
+	position: relative;
+	width: 9px;
+	background-color: #91d2d0;
+	transition: 0.5s;
+
+}
+
+.wrapper label:after {
+	border: 2px solid white;
+	content: " ";
+	height: 7px;
+	left: -1px;
+	position: absolute;
+	top: -1px;
+	width: 7px;
+	border-radius: 50%;
+}
+
+.wrapper label:focus,
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5){
+	background: white;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5{
+	opacity: 1;
+	z-index: 1;
+}
+/*Конец слайдера*/
+.blueline{
+	position: absolute;
+	background-color: #91d2d0;
+	top: 355px;
+	left: 0px;
+	width: 940px;
+	background-image: -webkit-linear-gradient(bottom, rgb(145,210,208) 1%, rgb(155,215,213) 100%);
+	background-image: -o-linear-gradient(bottom, rgb(145,210,208) 1%, rgb(155,215,213) 100%);
+	background-image: linear-gradient(to top, rgb(145,210,208) 1%, rgb(155,215,213) 100%);
+	height: 65px;
+	margin: auto 0;
+	z-index: -1;
+}
+.ruler {
+	background-color:  rgb(115,185,183);
+	position: absolute;
+	top: 65px;
+	width: 940px;
+	height: 6px;
+	z-index: 340;
+}
+.gambino{
+	position: absolute;
+	font-family: "TerminalDosisBook";
+	font-size: 16px;
+	top: 10px;
+	left: 592px;
+	color: white;
+}
+
+.linef{
+	position: absolute;
+	top: 6.5px;
+	max-width: 856px;
+	height: 10px;
+	z-index: 320;
+	left: 85px;
+}
+.featured{
+	font-family: "telegrafico";
+	font-size: 18px;
+	color: #7d7b7b;
+	position: absolute;
+	top: 682px;
+}
+/*Начало блока featured*/
+.block{
+	position: absolute;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: rgb( 188, 188, 188 );
+	width: 223px;
+	height: 268px;
+	top: 762px;
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(88,88,88) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(188, 188, 188) 0%, rgb(224, 224, 224) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+}
+.double{
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb( 241, 241, 241 );
+	background-color: rgb( 115, 115, 115 );
+	opacity: 0.79;
+	box-shadow: 0.5px 0.866px 0px 0px rgb( 255, 255, 255 );
+	position: absolute;
+	transform: translate(5%, 5%);
+	width: 202px;
+	height: 175px;
+	z-index: 4;
+
+}
+.cat {
+	box-shadow: 0.5px 0.866px 0px 0px rgb( 255, 255, 255 );
+	position: absolute;
+	width: 200px;
+	height: 173px;
+	z-index: 4;
+}
+.mascot{
+	top: 170px;
+	position: absolute;
+	font-size: 16px;
+	left: 10px;
+	font-family: "TerminalDosisBook";
+	color: rgb( 73, 73, 73 );
+	line-height: 1.75;
+}
+.blockcat01{
+	width: 20px;
+	height: 34px;
+	position: absolute;
+	z-index: 5;
+	top: 226px;
+	color: white;
+	left: 156px;
+	font-size: 18px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb( 91, 91, 91 );
+	background-image: -moz-linear-gradient( 90deg, rgb(68,68,68) 0%, rgb(100,100,100) 99%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(68,68,68) 0%, rgb(100,100,100) 99%);
+	background-image: -ms-linear-gradient( 90deg, rgb(68,68,68) 0%, rgb(100,100,100) 99%);
+	opacity: 0.79;
+	box-shadow: 0px 1px 0px 0px rgb( 255, 255, 255 );
+	font-family: "TerminalSemi";
+}
+
+.blockcat02{
+	width: 20px;
+	position: absolute;
+	height: 34px;
+	z-index: 5;
+	top: 226px;
+	left: 176px;
+	font-size: 18px;
+	background-image: -moz-linear-gradient( 90deg, rgb(206,206,206) 1%, rgb(220,220,220) 46%, rgb(234,234,234) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(206,206,206) 1%, rgb(220,220,220) 46%, rgb(234,234,234) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(206,206,206) 1%, rgb(220,220,220) 46%, rgb(234,234,234) 100%);
+	border-color: rgb( 91, 91, 91 );
+	opacity: 0.79;
+	box-shadow: 0px 1px 0px 0px rgb( 255, 255, 255 );
+	border-style: solid;
+	border-width: 1px;
+	font-family: "TerminalSemi";
+}
+.blockcat03{
+	width: 20px;
+	position: absolute;
+	z-index: 5;
+	height: 34px;
+	top: 226px;
+	left: 195px;
+	font-size: 18px;
+	background-image: -moz-linear-gradient( 90deg, rgb(206,206,206) 1%, rgb(220,220,220) 46%, rgb(234,234,234) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(206,206,206) 1%, rgb(220,220,220) 46%, rgb(234,234,234) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(206,206,206) 1%, rgb(220,220,220) 46%, rgb(234,234,234) 100%);
+	border-color: rgb( 91, 91, 91 );
+	opacity: 0.79;
+	box-shadow: 0px 1px 0px 0px rgb( 255, 255, 255 );
+	border-style: solid;
+	border-width: 1px;
+	font-family: "TerminalSemi";
+}
+.catCenter{
+	position: absolute;
+	top: -10px;
+	left: 5px;
+}		
+.block2{
+	position: relative;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: rgb( 188, 188, 188 );
+	width: 223px;
+	height: 268px;
+	top: 227px;
+	left: 240px;
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(88,88,88) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(188, 188, 188) 0%, rgb(224, 224, 224) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+}
+.block3{
+	position: relative;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: rgb( 188, 188, 188 );
+	width: 223px;
+	height: 268px;
+	bottom: 41px;
+	left: 480px;
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(88,88,88) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(188, 188, 188) 0%, rgb(224, 224, 224) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+}
+
+.block4{
+	position: relative;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: rgb( 188, 188, 188 );
+	width: 223px;
+	height: 268px;
+	margin-top:-308px;
+	left: 720px;
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(88,88,88) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(188, 188, 188) 0%, rgb(224, 224, 224) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+}
+/*Конец блока featured*/
+
+/*Brands*/
+.BRANDS{
+	font-family: "MyriadPro";
+	font-size: 18px;
+	color: #747272;
+	position: absolute;
+	top: 1062px;
+}
+.znachki{
+	position: absolute;
+	top: 1165px;
+}
+.apple {
+	position: absolute;
+	width: 70px;
+	left: 115px;
+	top: -20px;
+	height: 60px;
+	cursor: pointer;
+}
+.palm{
+	position: absolute;
+	width: 66px;
+	height: 66px;
+	left: 325px;
+	top: -20px;
+	cursor: pointer;
+}
+.adidas{
+	position: absolute;
+	width: 80px;
+	height: 53px;
+	left: 540px;
+	top: -10px;
+	cursor: pointer;
+}
+.HugoBoss {
+	position: absolute;
+	width: 80px;
+	height: 35px;
+	left: 760px;
+	cursor: pointer;
+}
+/*Конец Brands*/
+
+.LATEST{
+	font-family: "telegrafico";
+	font-size: 18px;
+	color: #747272;
+	position: absolute;
+	top: 1232px;
+}
+.latest_block{
+	position: absolute;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: rgb( 188, 188, 188 );
+	width: 223px;
+	height: 268px;
+	top: 1314px;
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(88,88,88) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(188, 188, 188) 0%, rgb(224, 224, 224) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+}
+
+.latest_block2{
+	position: relative;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: rgb( 188, 188, 188 );
+	width: 223px;
+	height: 268px;
+	top: 283px;
+	left: 240px;
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(88,88,88) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(188, 188, 188) 0%, rgb(224, 224, 224) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+}
+.latest_block3{
+	position: relative;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: rgb( 188, 188, 188 );
+	width: 223px;
+	height: 268px;
+	top: 15px;
+	left: 480px;
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(88,88,88) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(188, 188, 188) 0%, rgb(224, 224, 224) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+}
+.latest_block4{
+	position: relative;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: rgb( 188, 188, 188 );
+	width: 223px;
+	height: 268px;
+	left: 720px;
+	margin-top: -253px;
+	background-color: #e0e0e0;
+	background-image: -moz-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(88,88,88) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(188, 188, 188) 0%, rgb(224, 224, 224) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(0,0,0) 0%, rgb(255,255,255) 100%);
+}
+.poryadok{
+	position: relative;
+}
+.bottomline {
+	width: 100%;
+	height: 138px;
+	position: absolute;
+	background-color: #eee5c8;
+	top: 267px;
+	box-shadow: 0px 5px 0px 0px rgb( 222, 213, 183 );
+}
+.bottomtexture {
+	width: 100%;
+	height: 138px;
+	position: absolute;
+}
+.lightbulb {
+	position: absolute;
+	top: 20px;
+}
+.Suspendisse {
+	position: absolute;
+	font-size: 18px;
+	font-family: "telegrafico";
+	left: 29px;
+	width: 270px;
+	color: #747272;
+}
+.Aliquam{
+	position: absolute;
+	font-size: 14px;
+	left: 29px;
+	width: 200px;
+	line-height: 1.714;
+	color: #7d7253;
+	width: 200px;
+	height: 62px;
+	top: 26px;
+	font-family: "TerminalDosisBook";
+
+}
+.zevs{
+	position: absolute;
+	top: 20px;
+	left: 320px;
+}
+.Suspendisse2{
+	position: absolute;
+	font-size: 18px;
+	font-family: "telegrafico";
+	left: 350px;
+	width: 250px;
+	color: #747272;
+
+}
+.Aliquam2{
+	position: absolute;
+	font-size: 14px;
+	left: 350px;
+	width: 200px;
+	line-height: 1.714;
+	width: 200px;
+	height: 62px;
+	color: #7d7253;
+	top: 26px;
+	font-family: "TerminalDosisBook";
+}
+.power {
+	position: absolute;
+	left: 640px;
+	top: 20px;
+}
+.Suspendisse3{
+	position: absolute;
+	font-size: 18px;
+	font-family: "telegrafico";
+	left: 669px;
+	width: 350px;
+	color: #747272;
+
+}
+.Aliquam3{
+	position: absolute;
+	font-size: 14px;
+	left: 669px;
+	width: 200px;
+	line-height: 1.714;
+	width: 237px;
+	height: 62px;
+	color: #7d7253;
+	top: 26px;
+	font-family: "TerminalDosisBook";
+}
+.bottomline2{
+	position: absolute;
+	width: 100%;
+	top: 143px;
+	height: 242px;
+	background-color: #636363;
+	box-shadow: 0px 5px 0px 0px rgb(92, 92, 92);
+}
+.textureblack{
+	position: absolute;
+	width: 100%;
+	height: 159px;
+}
+.about {
+	position: absolute;
+	font-family: "telegrafico";
+	font-size: 18px;
+	color: white;
+}
+.sed{
+	position: absolute;
+	font-size: 14px;
+	width: 173px;
+	height: 154px;
+	top: 33px;
+	font-family: "TerminalDosisBook";
+	color: #c9c9c9;
+	line-height: 1.714;
+}
+.information{
+	position: absolute;
+	font-family: "telegrafico";
+	font-size: 18px;
+	left: 200px;
+	color: white;
+}
+.Delivery{
+	position: absolute;
+	font-size: 14px;
+	width: 186px;
+	height: 82px;
+	top: 33px;
+	left: 200px;
+	font-family: "TerminalDosisBook";
+	color: #c9c9c9;
+	line-height: 1.714;
+}
+.Customer {
+	position: absolute;
+	font-family: "telegrafico";
+	font-size: 18px;
+	left: 400px;
+	color: white;
+}
+.Contact {
+	position: absolute;
+	font-size: 14px;
+	width: 128px;
+	height: 82px;
+	top: 33px;
+	left: 400px;
+	font-family: "TerminalDosisBook";
+	color: #c9c9c9;
+	line-height: 1.714;
+}
+.Account{
+	position: absolute;
+	font-family: "telegrafico";
+	font-size: 18px;
+	left: 600px;
+	color: white;
+}
+.Order {
+	position: absolute;
+	font-size: 14px;
+	width: 128px;
+	height: 82px;
+	top: 33px;
+	left: 600px;
+	font-family: "TerminalDosisBook";
+	color: #c9c9c9;
+	line-height: 1.714;
+}
+.extras {
+	position: absolute;
+	font-family: "telegrafico";
+	font-size: 18px;
+	left: 790px;
+	color: white;
+	white-space: nowrap;
+}
+.Brands{
+	position: absolute;
+	font-size: 14px;
+	width: 168px;
+	height: 82px;
+	top: 33px;
+	left: 790px;
+	font-family: "TerminalDosisBook";
+	color: #c9c9c9;
+	line-height: 1.714;
+}
+.lastline {
+	position: absolute;
+	height: 67px;
+	width: 100%;
+	background: #4d4d4d;
+	top: 247px;
+}
+.copyright{
+	position: absolute;
+	font-family: "telegrafico";
+	font-size: 14px;
+	color: #848484;
+	top: 13px;
+}
+.powered{
+	position: absolute;
+	font-family: "telegrafico";
+	font-size: 14px;
+	color: #848484;
+	top: 13px;
+	left: 780px;
+}
+.exit{
+	position: absolute;
+	top: 30px;
+	border-radius: 180%;
+	left: 900px;
+	background-image: linear-gradient(to right, rgb(244,70,32) 0%, rgb(248,84,43) 44%, rgb(252,98,54) 70%, rgb(251,94,49) 81%, rgb(250,89,43) 97%);
+	border: none;
+	cursor: pointer;
+	font-family: "telegrafico";
+	color: white;
+}
+.exit:focus{
+	outline: none;
+	color: black;
+}
+.login{
+	position: absolute;
+	top: 30px;
+	border-radius: 180%;
+	left: 900px;
+	background-image: linear-gradient(to right, rgb(244,70,32) 0%, rgb(248,84,43) 44%, rgb(252,98,54) 70%, rgb(251,94,49) 81%, rgb(250,89,43) 97%);
+	border: none;
+	cursor: pointer;
+	font-family: "telegrafico";
+	color: white;
+}
+.login:focus{
+	outline: none;
+	color: black;
+}
+#anchor{
+	transition: 0.5s ;
+}
+.set12{
+	cursor: pointer;
+	position: absolute;
+	top: 10px;
+	left: 350px;
+	color: #848484;
+}

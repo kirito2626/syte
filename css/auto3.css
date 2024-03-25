@@ -1,0 +1,82 @@
+.container {
+	max-width: 260px;
+	margin: 0 auto;
+	padding: 0;
+}
+.a {
+	text-decoration: none;
+}
+.autorization{
+	position: absolute;
+	left: 30px;
+}
+.poryadok{
+	position: absolute;
+	top: 25%;
+	
+}
+.poryadok2{
+	position: absolute;
+	top: 15%;
+	
+}
+.poryadok3{
+	position: absolute;
+	top: 18%;
+	
+}
+.block{
+	position: absolute;
+	width: 260px;
+	top: 10%;
+	height: 320px;
+	/*background-image: url(../img/auto.png);*/
+	background: linear-gradient(to right, #fb6035 0%, #fb6035 29%, #ff8767 50%, #fb6035 70%, #fb6035 100%);
+	box-shadow:  0px 0px 0px 5px rgba(179, 186, 191, 1);
+
+}
+.bd{
+	border-radius: 90px;
+	/*border:;*/
+	background: rgb(196, 183, 183);
+	
+
+}
+#but{
+	position: absolute;
+	left: 25px;
+	cursor: pointer;
+}
+.bd:focus {
+	outline: none;
+}
+#room {
+	position: absolute;
+	top: 140px;
+	left: 109px;
+	cursor: pointer;
+}
+/*.bd input{
+	box-shadow: 0px 0px 6px 5px rgba(0, 0, 0, 0.2) inset;
+	}*/
+	body{
+		background-image: url(../img/autophone.png);	
+	}
+	.left{
+		display: block;
+		color: black;
+	}
+	.left:hover{
+		color: gray;
+		text-decoration: none;
+	}
+	.error{
+		position: relative;
+		left: 60px;
+		top: 45px;
+	}
+.error2{
+	position: relative;
+	left: 60px;
+	top: 55px;
+}
